@@ -56,3 +56,8 @@ body {
   transform-origin: bottom left;
 }
 
+.aboutMe--container{
+  background-color: #0D0A08;
+  margin: 0px 290px;
+  padding: 0px 15px;
+}
