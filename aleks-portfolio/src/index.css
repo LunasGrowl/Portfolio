@@ -64,6 +64,37 @@ body {
   border-radius: 2%; 
 }
 
+.aboutMe--content{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutMe--image{
+  width: 30%;
+}
+
+
+.aboutMe--position{
+  color:#00FFD9;
+  font-weight: 400;
+}
+
+.aboutMe--information{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe--information h2, p, ul{
+  margin-top: 0px;
+}
+
+.aboutMe--information li::marker{
+  font-family: 'Edu TAS Beginner', cursive;;
+  content: ">";
+  color: #00FFD9;
+}
+
 .section--title{
   padding-top: 15px;
   text-transform: uppercase;
@@ -85,6 +116,3 @@ body {
   text-transform: uppercase;
 }
 
-.aboutMe--image{
-  width: 30%;
-}
