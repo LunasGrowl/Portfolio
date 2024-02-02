@@ -1,8 +1,10 @@
 import react from 'react'
 
+
+
 export default function NavBar(){
     return(
-        <nav className='navbar--container'>
+        <nav className='navbar--container fixed-top'>
             <h1>Aleksander Bychawski </h1>
             <ul className='navbar--items'>
                 <li>About me</li>
