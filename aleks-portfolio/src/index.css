@@ -5,6 +5,7 @@ body {
   font: 400;
   margin:0px;
   background-image: url("images/backgroundPattern.jpg");
+  background-attachment: fixed;
 }
 
 .navbar--container{
@@ -66,6 +67,10 @@ body {
   opacity: 80%;
 }
 
+.aboutMe--containerInfo{
+  display: flex;
+}
+
 .aboutMe--content{
   display: flex;
   flex-direction: row;
@@ -121,6 +126,10 @@ body {
   font-family: 'Edu TAS Beginner', cursive;;
   content: "> ";
   color: #00FFD9;
+}
+
+.aboutMe--list{
+  width: 50%;
 }
 
 .section--title{
