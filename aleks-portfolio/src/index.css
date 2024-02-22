@@ -262,3 +262,66 @@ body {
 .project--information{
   margin-left: 15px;
 }
+
+.contact--container{
+  background-color: #000000;
+  margin: 85px 10%;
+  padding: 0px 20px;
+  border-radius: 1%; 
+  opacity: 80%;
+  padding-bottom: 30px;
+}
+
+.contact--sections{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact--section{
+  display:flex;
+  width: 45%;
+  background-color: #0f0f0f;
+  margin: 15px;
+}
+
+.contact--container i.bi{
+  font-size: 50px;
+  color: #00FFD9;
+  border-radius: 50%;
+  float: left;
+  /* background: rgba(255, 255, 255, 0.1); */
+  padding: 10px;
+}
+
+.contact--sectionInfo{
+  padding-top:10px;
+}
+
+.contact--sectionInfo h3{
+  color: #b4b4b4;
+}
+
+.contact--container i.bi-linkedin{
+  font-size: 25px;
+  color: #ffffff;
+  padding-top: 0;
+
+}
+
+.contact--container i.bi-instagram{
+  font-size: 25px;
+  color: #ffffff;
+  padding-top:0;
+}
+
+.contact--container i.bi-github{
+  font-size: 25px;
+  color: #ffffff;
+  padding-top:0;
+}
+
+.contact--container i.bi-facebook{
+  font-size: 25px;
+  color: #ffffff;
+  padding-top:0;
+}
