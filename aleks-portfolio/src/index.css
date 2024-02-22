@@ -212,3 +212,39 @@ body {
 .resume--columns{
   display: flex;
 }
+
+.portfolio--container{
+  background-color: #000000;
+  margin: 85px 10%;
+  padding: 0px 20px;
+  border-radius: 1%; 
+  opacity: 80%;
+  padding-bottom: 30px;
+}
+
+.portfolio--projectContainer{
+  display: flex;
+}
+
+.portfolio--project{
+  width: 50%;
+  display: flex;
+}
+
+.project--image{
+  width: 65%;
+}
+
+.portfolio--container  h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project--name{
+  display: flex;
+}
