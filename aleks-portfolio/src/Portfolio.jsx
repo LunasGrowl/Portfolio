@@ -1,4 +1,6 @@
-export default function AboutMe(){
+
+export default function Portfolio(data){
+
     return(
         <div className="portfolio--container">
             <h2 className = "section--title">Portfolio</h2>
@@ -8,14 +10,13 @@ export default function AboutMe(){
                     <img className="project--image" src="./src/images/xivTimetable.jpg"/>
                     <div className="project--information">   
                         <div className="project--name">
-                            <h4><em>XIV Timetable</em></h4>
-                            <a class="icon-link" href="#">
-                                <svg class="bi" aria-hidden="true">
-                                    <use xlink:href="#arrow-right"></use>
-                                </svg>
-                            </a>
+                            <h4>
+                                <a href="https://final-fantasy-timetable.web.app/">
+                                    <em> XIV Timetable<i class="bi bi-arrow-right"></i></em>
+                                </a>
+                            </h4>
                         </div>
-                    <p></p>
+                    <p>This is a web application that was made for the Final Fantasy XIV community. It is used to help groups plan out fights in the game with ease and supports sharing custom made time tables with other players</p>
                     </div>
                 </div>
             </div>

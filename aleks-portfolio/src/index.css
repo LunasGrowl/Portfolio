@@ -232,7 +232,7 @@ body {
 }
 
 .project--image{
-  width: 65%;
+  width: 55%;
 }
 
 .portfolio--container  h4{
@@ -245,6 +245,20 @@ body {
   margin-bottom: 10px;
 }
 
+.portfolio--container  a{
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.portfolio--container  p{
+  color: #b4b4b4;
+}
+
 .project--name{
   display: flex;
+}
+
+.project--information{
+  margin-left: 15px;
 }

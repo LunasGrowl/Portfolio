@@ -4,13 +4,15 @@ import Resume from './Resume.jsx'
 import Portfolio from './Portfolio.jsx'
 
 
+
 function App() {
+
   return (
     <div>
       <NavBar/>
       <AboutMe/>
       <Resume />
-      <Portfolio/>
+      <Portfolio />
     </div>
   )
 }
