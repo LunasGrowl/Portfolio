@@ -138,6 +138,7 @@ body {
   font-size: medium;
   font-weight: 700;
   color: #b4b4b4;
+  
 }
 
 .section--title::after{
@@ -147,6 +148,7 @@ body {
   display: inline-block;
   background-color: #00FFD9;
   margin: 4px 10px;
+  
 }
 
 .section--subTitle{
@@ -156,3 +158,57 @@ body {
   font-family:'Inter', sans-serif;
 }
 
+.resume--container{
+  background-color: #000000;
+  margin: 85px 10%;
+  padding: 0px 20px;
+  border-radius: 1%; 
+  opacity: 80%;
+  padding-bottom: 30px;
+}
+
+.resume--item{ 
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.resume--container .resume--item::before{
+  content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #00FFD9;
+    border: 2px solid #00FFD9;
+}
+
+.resume--container .resume--item h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #00FFD9;
+  margin-bottom: 10px;
+}
+
+.resume--title{
+  font-family:"Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.resume--column{
+  width: 50%;
+}
+
+.resume--columns{
+  display: flex;
+}
