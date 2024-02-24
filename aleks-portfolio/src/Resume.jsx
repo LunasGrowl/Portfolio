@@ -1,6 +1,6 @@
 export default function Resume(){
     return(
-        <div className="resume--container">
+        <div className="resume--container" id="resume--section">
             <h2 className="section--title">Resume</h2>
             <h1 className="section--subTitle">Check My Resume</h1>
             <div className="resume--columns">

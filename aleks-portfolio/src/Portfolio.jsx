@@ -2,7 +2,7 @@
 export default function Portfolio(){
 
     return(
-        <div className="portfolio--container">
+        <div className="portfolio--container" id="portfolio--section">
             <h2 className = "section--title">Portfolio</h2>
             <h1 className="section--subTitle">Projects</h1>
             <div className="portfolio--projectContainer">
@@ -17,6 +17,10 @@ export default function Portfolio(){
                             </h4>
                         </div>
                     <p>This is a web application that was made for the Final Fantasy XIV community. It is used to help groups plan out fights in the game with ease and supports sharing custom made time tables with other players</p>
+                    <h5 className="portfolio--tags tag-react"><em>#JQuery</em></h5>
+                    <h5 className="portfolio--tags tag-react"><em>#Github</em></h5>
+                    <h5 className="portfolio--tags tag-react"><em>#Firebase</em></h5>
+                    <h5 className="portfolio--tags tag-react"><em>#URL Manipulation</em></h5>
                     </div>
                 </div>
             </div>

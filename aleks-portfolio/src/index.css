@@ -325,3 +325,17 @@ body {
   color: #ffffff;
   padding-top:0;
 }
+
+.portfolio--tags{
+  display: inline-block;
+  border-radius: 3px;
+  padding: .2em .5em .3em;
+  border-radius: 2px;
+  background: var(--tag-bg);
+  color: var(--text-color);
+  font-weight: 600;
+  margin: .25em .1em;
+  font-size: 15px;
+  color: #00FFD9;
+  background: #222
+}

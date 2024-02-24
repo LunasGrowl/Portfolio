@@ -1,6 +1,6 @@
 export default function Contact(){
     return(
-        <div className="contact--container">
+        <div className="contact--container" id="contact--section">
             <h2 className = "section--title">Contact</h2>
             <h1 className="section--subTitle">Contact Me</h1>
             <div className="contact--sections">
