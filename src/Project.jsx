@@ -1,4 +1,4 @@
-export default function Portfolio(data){
+export default function Portfolio(){
     
     return(
     <div className="portfolio--project">
@@ -7,7 +7,7 @@ export default function Portfolio(data){
             <div className="project--name">
                 <h4>
                     <a href="https://final-fantasy-timetable.web.app/">
-                        <em> {data.title} <i class="bi bi-arrow-right"></i></em>
+                        <em> XIV Timetable <i class="bi bi-arrow-right"></i></em>
                     </a>
                 </h4>
             </div>
