@@ -4,7 +4,7 @@ export default function Portfolio(data){
     
     return(
     <div className="portfolio--project">
-        <img className="project--image" src="./src/images/xivTimetable.jpg"/>
+        <img className="project--image" src="./images/xivTimetable.jpg"/>
         <div className="project--information">   
             <div className="project--name">
                 <h4>

@@ -4,7 +4,7 @@ export default function AboutMe(){
             <h2 className = "section--title">About</h2>
             <h1 className="section--subTitle">Learn About Me</h1>
             <div className="aboutMe--content">
-                <img className="aboutMe--image" src="./src/images/Aleks-croped.jpg" />
+                <img className="aboutMe--image" src="./images/Aleks-croped.jpg" />
                 <div className="aboutMe--information">
                     <h2 className="aboutMe--position">Computer Science Graduate from the University of Portsmouth</h2>
                     <p className="aboutMe--miniDescription">A junior programmer who wants to expand his knowledge of multiple different programming languages to better express his creative vision</p>
