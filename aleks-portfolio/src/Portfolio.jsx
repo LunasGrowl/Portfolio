@@ -7,7 +7,7 @@ export default function Portfolio(){
             <h1 className="section--subTitle">Projects</h1>
             <div className="portfolio--projectContainer">
                 <div className="portfolio--project">
-                    <img className="project--image" src="./src/images/xivTimetable.jpg"/>
+                    <img className="project--image" src=".aleks-portfolio/src/images/xivTimetable.jpg"/>
                     <div className="project--information">   
                         <div className="project--name">
                             <h4>
