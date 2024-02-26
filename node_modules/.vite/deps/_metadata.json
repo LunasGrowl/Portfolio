@@ -1,0 +1,35 @@
+{
+  "hash": "3d414e2c",
+  "browserHash": "f414408e",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "957b14b8",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "7396eb4a",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "32d41baa",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c4e04365",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-UZX524IT": {
+      "file": "chunk-UZX524IT.js"
+    }
+  }
+}
